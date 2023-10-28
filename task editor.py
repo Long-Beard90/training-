@@ -5,6 +5,7 @@ while True:
     print('1.to add task')
     print('2.to remove task')
     print('3.to list tasks')
+    print('4.exit')
 
     choice=input('enter your choice :')
 
@@ -26,4 +27,16 @@ while True:
                 print(f"task removed:{removed_task}")
             else: 
                 print('invalid index , task not removed')
-                
+
+    elif choice=='3':
+        if not task:
+            print('there is no task :)')
+        else:
+            print('tasks :')
+            for i,task in enumerate(task):
+                pront(f'{i}.{task}')
+    elif choice=='4':
+        print('goodbye XD')
+        break
+    else :
+        print('invaild choice try a valid choice .')            
