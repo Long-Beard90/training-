@@ -11,4 +11,13 @@ while True:
     if choice=='1' :
         task_detail=input('Enter your task detail :')
         task.append(task_detail)
-        
+        print('task added')
+
+    elif choice=='2' :
+        if not task:
+            print('task not found')
+        else:
+            print('task :')
+            for i,task in enumerate(task):
+                print(f"{i}.{task}")
+                
