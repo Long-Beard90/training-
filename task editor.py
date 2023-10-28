@@ -20,4 +20,10 @@ while True:
             print('task :')
             for i,task in enumerate(task):
                 print(f"{i}.{task}")
+            task_index=int(input('Enter task index:'))
+            if 0 <= task_index <  len(task):
+                remove_task=task.pop(task_index)
+                print(f"task removed:{removed_task}")
+            else: 
+                print('invalid index , task not removed')
                 
