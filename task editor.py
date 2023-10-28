@@ -34,7 +34,7 @@ while True:
         else:
             print('tasks :')
             for i,task in enumerate(task):
-                pront(f'{i}.{task}')
+                print(f'{i}.{task}')
     elif choice=='4':
         print('goodbye XD')
         break
