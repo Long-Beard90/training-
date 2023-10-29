@@ -1,3 +1,4 @@
+
 # lets paly a game 
 import random
 the_number = random.randint(1, 100)
@@ -23,5 +24,4 @@ while True:
             break
     except ValueError :
         print('the number is not valid')
-    
-    print('thanks!') 
+print('thanks') 
