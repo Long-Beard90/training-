@@ -19,7 +19,7 @@ while True:
         elif guess > the_number:
             print('give me a lower number')
         else:
-            print('amazing ', guess, 'is correct!',the_number)
+            print('amazing ', guess, 'is correct!',the_number,'in',attempts,'attempts')
             break
     except ValueError :
         print('the number is not valid')
