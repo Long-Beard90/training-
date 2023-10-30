@@ -25,6 +25,3 @@ quit - to quit
         break
     else:
         print("i dont understand")
-
-  
-        
