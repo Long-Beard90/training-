@@ -8,6 +8,14 @@ namespace Mohsen
 {
     class Program
     {
-        
+        static void Main(string[] args)
+        {
+            bool ismale = true ;
+            if(ismale)
+            {
+                Console.WriteLine("you are a male ");
+                Console.ReadLine();
+            }
+        }
     }
 }
