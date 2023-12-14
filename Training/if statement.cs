@@ -10,8 +10,11 @@ namespace Mohsen
     class Program
     {
         static void Main(string[] args)
-        {
-            bool ismale = true;
+        // here we will use if statement 
+        // after if open  a () and gave it value names 
+        // and then open a {} and inside of it use Console.WriteLine();
+        // for using else if and else , you shuld add them after } and then opne another {}and use Console.WriteLine inside it    
+          {            bool ismale = true;
             bool istall = true;
             if (ismale && istall) 
             {
@@ -22,9 +25,12 @@ namespace Mohsen
             }else if (ismale || istall)
             {
                 Console.WriteLine("you may be tall or may be male or both ");
-            }else if (ismale && istall) 
+            }else if (!ismale && !istall) 
             {
-                Console.WriteLine()
+                Console.WriteLine(" you are not male and you are not tall");
+            }else
+            {
+                Console.WriteLine("i dont give a damn ");
             }
         }
         
