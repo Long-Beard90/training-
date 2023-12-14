@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,15 +11,26 @@ namespace Mohsen
     {
         static void Main(string[] args)
         {
-            bool ismale = true ;
-            if(ismale)
+            bool ismale = true;
+            bool istall = true;
+            if (ismale && istall) 
             {
-                Console.WriteLine("you are a male ");
+                Console.WriteLine("you are a male and tall ");
                 Console.ReadLine();
-            }else
+            
+
+            }else if (ismale || istall)
             {
-                Console.WriteLine("you are a female ");
+                Console.WriteLine("you may be tall or may be male or both ");
+            }else if (ismale && istall) 
+            {
+                Console.WriteLine()
             }
         }
+        
+
+       
     }
+
+
 }
