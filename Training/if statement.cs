@@ -15,6 +15,9 @@ namespace Mohsen
             {
                 Console.WriteLine("you are a male ");
                 Console.ReadLine();
+            }else
+            {
+                Console.WriteLine("you are a female ");
             }
         }
     }
