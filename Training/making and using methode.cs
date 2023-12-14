@@ -43,7 +43,7 @@ namespace Mohsen
         static void HiandAge(string name, int age)
         {
             Console.WriteLine("hello " + name + "you are " + age);
-            // and we can use type of values as we want in just one method ..
+            // and we can use type of values as we want in just one method ...
         }
 
 
