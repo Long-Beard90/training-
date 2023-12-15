@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 namespace Mohsen
 {
     class Program
-    {
+    { // we want to make a method that compares two numbers 
+    
         static void Main(string[] args)
         {
             Console.Write("enter first number :");
@@ -22,7 +23,7 @@ namespace Mohsen
             Console.ReadLine();
 
             
-        }
+        }// instead of void we shuld have int after static 
         static int Max(int num1 , int num2)
         {
             int resualt;
@@ -32,7 +33,7 @@ namespace Mohsen
             }else
             {
                 resualt = num2;
-            }
+            } // we shuld use return because it wont give us back itn , insteat it will give us bool 
             return resualt;
            
         }
